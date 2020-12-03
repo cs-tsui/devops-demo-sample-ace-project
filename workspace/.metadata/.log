@@ -834,3 +834,10 @@ Contains: Configuration directory does not exist: /Users/chunsingtsui/ibm/ACET11
 
 !ENTRY com.ibm.mq.runtime 4 0 2020-12-03 13:56:10.110
 !MESSAGE WebSphere MQ install location is not found.
+
+!ENTRY org.eclipse.core.resources 2 2 2020-12-03 14:56:44.489
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2020-12-03 14:56:44.489
+!MESSAGE The project description file (.project) for 'TEST_SERVER' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2020-12-03 14:56:44.489
+!MESSAGE The project description file (.project) for 'TEST_SERVER2' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
