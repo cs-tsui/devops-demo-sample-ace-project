@@ -1,7 +1,4 @@
-
-
-CREATE COMPUTE MODULE postEcho_Compute
-	CREATE FUNCTION Main() RETURNS BOOLEAN
+/*EATE FUNCTION Main() RETURNS BOOLE*/
 	BEGIN
 		-- CALL CopyMessageHeaders();
 		CALL CopyEntireMessage();
@@ -27,4 +24,3 @@ CREATE COMPUTE MODULE postEcho_Compute
 		SET OutputRoot.JSON.Data.message = 'welcome';
 	END;
 	
-END MODULE;

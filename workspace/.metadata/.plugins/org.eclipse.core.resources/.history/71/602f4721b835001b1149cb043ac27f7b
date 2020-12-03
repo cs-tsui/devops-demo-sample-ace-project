@@ -4,8 +4,8 @@ CREATE COMPUTE MODULE postEcho_Compute
 	CREATE FUNCTION Main() RETURNS BOOLEAN
 	BEGIN
 		-- CALL CopyMessageHeaders();
-		CALL CopyEntireMessage();
-	    -- CALL Welcome();
+		-- CALL CopyEntireMessage();
+		CALL Welcome();
 		RETURN TRUE;
 	END;
 
