@@ -18,5 +18,9 @@
             <input path="$ComIbmMessageAssembly_BLOB/Properties"/>
             <output path="$ComIbmMessageAssembly_BLOB1/Properties"/>
         </move>
+        <move>
+            <input path="$ComIbmMessageAssembly_BLOB/BLOB"/>
+            <output path="$ComIbmMessageAssembly_BLOB1/BLOB"/>
+        </move>
     </mappingDeclaration>
 </mappingRoot>
