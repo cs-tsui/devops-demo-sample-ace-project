@@ -3,6 +3,7 @@
 CREATE COMPUTE MODULE postEcho_Compute
 	CREATE FUNCTION Main() RETURNS BOOLEAN
 	BEGIN
+	    -- this is commented out
 	    -- CALL CopyMessageHeaders();
 	    CALL CopyEntireMessage();
 	    -- CALL Welcome();
